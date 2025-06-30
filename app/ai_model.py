@@ -3,28 +3,46 @@ import os
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 from app.model_utils import clean_text, embed_text, infer_location
 
-# === Helper to assert file exists ===
-def safe_load_joblib(path):
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"Model file not found: {path}")
-    return joblib.load(path)
+# === Model globals (not loaded at import) ===
+category_model = None
+category_le = None
+urgency_model = None
+urgency_le = None
+summary_tokenizer = None
+summary_model = None
 
-# === Load Category and Urgency Models ===
-category_model = safe_load_joblib("app/models/category_model.joblib")
-category_le = safe_load_joblib("app/models/category_label_encoder.joblib")
-urgency_model = safe_load_joblib("app/models/urgency_model.joblib")
-urgency_le = safe_load_joblib("app/models/urgency_label_encoder.joblib")
+# === Load all models safely ===
+def load_models():
+    global category_model, category_le, urgency_model, urgency_le
+    global summary_tokenizer, summary_model
 
-# === Load T5 Summary Model ===
-summary_model_dir = "app/models/summary_t5_model"
-if not os.path.exists(summary_model_dir):
-    raise FileNotFoundError(f"T5 model directory not found: {summary_model_dir}")
+    def safe_load_joblib(path):
+        if not os.path.exists(path):
+            raise FileNotFoundError(f"Model file not found: {path}")
+        return joblib.load(path)
 
-summary_tokenizer = T5Tokenizer.from_pretrained(summary_model_dir)
-summary_model = T5ForConditionalGeneration.from_pretrained(summary_model_dir)
+    print("🔄 Loading models...")
+
+    category_model = safe_load_joblib("app/models/category_model.joblib")
+    category_le = safe_load_joblib("app/models/category_label_encoder.joblib")
+    urgency_model = safe_load_joblib("app/models/urgency_model.joblib")
+    urgency_le = safe_load_joblib("app/models/urgency_label_encoder.joblib")
+
+    summary_model_dir = "app/models/summary_t5_model"
+    if not os.path.exists(summary_model_dir):
+        raise FileNotFoundError(f"T5 model directory not found: {summary_model_dir}")
+
+    summary_tokenizer = T5Tokenizer.from_pretrained(summary_model_dir)
+    summary_model = T5ForConditionalGeneration.from_pretrained(summary_model_dir)
+
+    print("✅ All AI models loaded.")
+
 
 # === Prediction Function ===
 def predict_complaint_metadata(room_number: str, text: str):
+    if not all([category_model, category_le, urgency_model, urgency_le, summary_tokenizer, summary_model]):
+        raise RuntimeError("AI models not loaded. Call load_models() before using predict_complaint_metadata().")
+
     input_text = clean_text(f"{room_number} {text}")
     embedded = embed_text([input_text])
 
@@ -38,6 +56,3 @@ def predict_complaint_metadata(room_number: str, text: str):
     summary = summary_tokenizer.decode(output_ids[0], skip_special_tokens=True)
 
     return category, urgency, location, summary
-
-def load_models():
-    print("Models loaded.")  # Already loaded at import time
