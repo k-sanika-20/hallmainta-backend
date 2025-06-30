@@ -20,6 +20,8 @@ gdown --id 1ts42zhrP0I845m7UMOGllmrzZ6CozH98 -O app/models/summary_t5_model/gene
 gdown --id 119U0-s0bGHlMM7d8JUcmgeganRm5k4_N -O app/models/summary_t5_model/special_tokens_map.json
 gdown --id 1cn6l5208oU9XbdmT1in9wdVgIm9hDK6q -O app/models/summary_t5_model/spiece.model
 gdown --id 1za7mucMjMLmOkT7M2gyA_Yjcymvj02jY -O app/models/summary_t5_model/tokenizer_config.json
-gdown --id 119U0-s0bGHlMM7d8JUcmgeganRm5k4_N -O app/models/summary_t5_model/special_tokens_map.json
 gdown --id 1FIf4DLPQVGOBQLeW9dSEZLXVCv9s-yjW -O app/models/summary_t5_model/added_tokens.json
 
+# ✅ Debug: List all files in app/models after download
+echo "✅ Files in app/models:"
+ls -R app/models
