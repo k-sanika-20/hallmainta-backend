@@ -1,0 +1,52 @@
+room_number,text,category,urgency,location,summary
+H208,"At room, many places don't have paint",Civil/Structural,Low,H-208,Painting needed.
+H208,"the wardrobe lock is broken,",Civil/Structural,Low,H-208,Wardrobe lock is broken
+S-211,All the paint is sticking out and falling.,Civil/Structural,Low,S-211,Painting needed.
+W208,Our room is just beside the washroom so one of the wall is always damp. Please address this issue as soon as possible by painting the wall,Civil/Structural,Medium,W-208,Painting needed.
+S201,Termite,Pest Control,High,S-201,Termite issue
+H310,"Ceiling issue, broken cupboard door",Civil/Structural,Low,H-310,Broken Cupboard door and ceiling issue
+S308,Please paint this as soon as possible. This is very depressing to live in especially in my final year when I have so many exams.,Civil/Structural,High,S-308,Painting needed.
+E-102,Drinking water in E block,Appliances,High,E Block,Need a Water Cooler.
+NR-12,Washroom of nr block are very dirty,Housekeeping,High,NR Block,Dirty Washrooms
+S-101,"I have concerns about dogs in the hall. While I understand that most of them remain quiet and well-behaved, there have been instances when they started barking among themselves or towards hall residents, and this becomes really irritating when you are trying to sleep at night and they randomly start barking and/or fighting among themselves, right before your room. Additionally, many of us are uncomfortable with dogs sleeping and leaving garbage scattered in our wings or blocks. Specifically, I'm referring to S Block, where I reside. However, it seems that this issue is not limited to my block but extends to all floors and blocks in the hall. So, I think measures should be taken. It would be greatly appreciated if they could be relocated outside the main gate or at least away from the reception area.",Other,Medium,S Block ,"Dogs bark at night and create disturbance. They enter blocks, leave garbage, and make residents uncomfortable. This happens across the hall, especially in S block. Request relocation away from reception."
+F-201,washrooms are not in good condition some pipes are broken,Plumbing,High,F Block 1st floor washroom,Pipes are Broken
+G-105,Geaser is not working since the last semester,Electrical,High,G Block Ground Floor,Geyser is not working.
+A-110,very bad drinking water maintenance,Appliances,High,A Block,Water Cooler and Filter need to be repaired
+N-210,Geyser in N blocks first floor washroom doesn't works,Electrical,High,N Block 1st Floor,Geyser is not working.
+N-306,"one of its toilet have broken jet spray and other has a leaking flush tank pipe,thus both the toilets cannot be used.",Plumbing,High,N Block 2nd Floor Washroom,Broken Jet Spray and Leaking flush tank pipe.
+B-106, It has also been observed that the toilets are kept unwashed for few days which is not good for health and sanitation so cleaning of toilet should be done by maid on daily basis. ,Housekeeping,High,B Block washrooms,Dirty Washrooms
+E-305,There is just one washing machine working for the entire hall. There are around 350 boarders and just one washing machine which is working. Please get more washing machine or properly fix the ones which are here atleast,Appliances,High,Entire Hall,Need more washing machines and need to repair ones that are not working
+nr-8,"Does the network connectivity fall under maintenance? If yes, please do something about it. There is literally 0 bars of connectivity in the NR block and it makes everything soo difficult, especially when the wifi networks are slow and you need mobile data to function",Internet/IT,High,NR Block,Poor WiFi connectivity
+,"Washroom conditions in e-block 1st floor are really bad. Either the door doesn't close or the water flows outside when flushed. Even newly installed flush system is not working properly. Please check out regarding that.
+Also near besides and behind our room drainage water flows so it stinks sometimes and also there are many mosquitoes because of that.",Plumbing,High,E Block 1st Floor washroom,"Door is broken, broken flush, drainage problem"
+E-201,there are many mosquitoes ,Pest Control,High,E Block,Mosquitoes
+S-304,Wall needs painting. Already complaint. Engineer came to have a look and said will come back to start work from Monday. But it's been a week and nobody's coming yet.,Civil/Structural,High,S-304,Painting needed.
+W-108,"Got a room having damped wall.water leakage happens from the terrace.Gave complain to color the room but still now no response received.
+",Civil/Structural,High,W-108,Painting needed.
+B-106,"Gym room's treadmill isn't working .
+The weighing machine also isn't working",Appliances,Low,Gym Room,Treadmill and weighing machine not working
+H 205,Fix washroom Flushes,Plumbing,High,H Block 1st Floor Washroom,Flushes need to be repaired.
+N 110,the area behind N block is dirty and it smells. The tanks open. Please get it cleaned.,Housekeeping,High,Area behind N Block,Area behind N block needs cleaning.
+G 207,I always find dogs in the corridors and I have seen dogs brushing past clothes hung for drying.These dogs are so foul smelling and these coming in contact with the washed clothes are so unhygienic,Other,High,Hall Premise,Dogs roaming in hall premises.
+G 207,I have found the Didi who cleans my wing using the same mop to clean the washrooms and mop the rooms. I find it very unhygienic to do so.,Housekeeping,High,G Block 1st Floor,Maid using same mops to clean washrooms and rooms
+S-103,Proper pad disposal mechanisms must also be setup and biodegradable items must be disposed off separately.,Housekeeping,High,Entire Hall,Proper pad disposal needed
+S-103,"The liquid soap containers in the bathrooms are sometimes empty, they must be filled on a more regular basis. Air fresheners can be installed in washrooms.",Housekeeping,Medium,S Block Ground Floor Washroom,Liquid Soap/Handwash need to be refilled regularly
+W308,"Rats noted entering the rooms , please ensure rat traps are issuable to resolve this hazard",Pest Control,High,W Block,Rats entering in room.
+H309,My cupboard door wood is softening now and slowly cracking into pieces.,Civil/Structural,Medium,H-309,Cupboard door is cracking
+F207,Constantly (almost once every three days) clogged basins in the lavatory,Plumbing,High,F Block 1st floor washroom,Clogged Basins
+NR5,The wood of my bed is a home to ants. I cant eat anything in the room because of it. Despite multiple requests to manager no actions are still taken.,Pest Control,High,NR-5,Ants in wood of bed.
+NR5,LAV always dirty. Pots always clogged. ,Plumbing,High,NR Block washroom,Pots are clogged
+H202,Need more light in the bathing stall in H block 1st floor washroom. The sensor light only lights the middle bathroom stall other two stall don't get enough light,Electrical,Medium,H Block 1st Floor Washroom,More lights needed and some needs repairing
+W 307,The renovated washroom of W-block on the 2nd floor doesn't have proper geyser.,Electrical,Medium,W Block 2nd florr washroom,Geyser is not working.
+G 209, Stagnant water behind and besides mess area is a source for mosquitoes and it is creating a foul smell all the time. Please keep it clean,Other,Medium,Behind and beside mess area,Dirty water behind and beside mess area
+C-101,rain water accumulates in the marshy area behind c block resulting in a foul odour and also a tremendous amount of mosquitoes,Other,High,Behind C Block,Rain water accumulating behind C Block
+e102,cleaning is not regular and proper of room.,Housekeeping,Medium,E Block,Cleaning of rooms is not regular and proper
+e102,balcony bulb doesnt work,Electrical,Low,E-102,Bulb not working.
+e102,"our room got broken tables , chairs were also broken but they refused to exchange.no hanging space in cupboard ..some cupboard do have hanging rods some dont",Civil/Structural,Medium,E-102,"Broken tables, chairs. No Hanging rods in cupboard."
+S209,"Music, Gym and study rooms should be cleaned on a daily basis. They are always sinky and dirty, making them unusable.",Housekeeping,Medium,"Music room, Gym Room, Study Room",Common rooms need to be cleaned regularly
+S209,"Whenever there is rain, water leaks through pipes in front of my room and all clothes on the wire in front of my room S209 get wet.",Plumbing,Medium,S Block 1st floor corridor,Water leak when its raining
+S209,Door of an Indian washroom in the 1st floor S-block has been broken from below making it unusable.,Civil/Structural,High,S Block 1st floor washroom,washroom door is broken 
+S209,"FILTERS in the drinking water units have not been changed since many years. Only the cooler tank is replaced, the filtering units are still the same even after many years. They must be changed to ensure the consumption of safe drinking water.",Appliances,High,Entire Hall,Water filters need to replaced and repaired
+NR-7,Lots of mosquitoes and other insects inside the hall,Pest Control,High,Entire Hall,Mosquitoes and insects in hall premises
+NR-7," Snake found in hall premise during monsoon, please take care of this issue as it can be extremely dangerous.",Pest Control,High,Entire Hall,Snakes in hall premises 
+W202,Fan is very old,Electrical,Medium,W-202,"Fan is old, needs replacement"
